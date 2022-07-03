@@ -44,7 +44,6 @@ public class RefNoFormatterServiceTests {
         format = refNoFormatterService.format(mockRefNo.case10);
         Assertions.assertEquals(StringUtils.EMPTY, format);
 
-        System.out.println(mockRefNo.case10);
     }
 
     interface mockRefNo {
